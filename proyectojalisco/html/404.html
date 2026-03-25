@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404 - ¡Ups!</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .error-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .btn-home {
+            text-decoration: none;
+            background-color: #ffdb58; /* Color plátano */
+            color: #333;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: transform 0.2s;
+            display: inline-block;
+        }
+
+        .btn-home:hover {
+            transform: scale(1.05);
+            background-color: #f0cc4d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="../assets/img/favicon/favicon.ico" alt="Error 404 Platano" class="error-img">
+        
+        <h1>¡Se nos resbaló la página!</h1>
+        <p>Parece que el sistema se "peló" o la dirección que buscas ya no existe.</p>
+        
+        <a href="index.php" class="btn-home">Volver al Dashboard</a>
+    </div>
+
+</body>
+</html>
