@@ -9,7 +9,7 @@
       <meta
          name="viewport"
          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
-      <title>POS - Ventas</title>
+      <title>Inventario</title>
       <meta name="description" content="" />
       <!-- Favicon -->
       <link rel="icon" type="image/x-icon" href="../assets/img/favicon/favicon.ico" />
@@ -74,12 +74,12 @@
                      </a>
                   </li>
                   <li class="menu-item">
-                     <a href="index.html" class="menu-link">
+                     <a href="pos.html" class="menu-link">
                         <div class="text-truncate" data-i18n="salesPos">Ventas (POS)</div>
                      </a>
                   </li>
                   <li class="menu-item">
-                     <a href="index.html" class="menu-link">
+                     <a href="inventario.html" class="menu-link">
                         <div class="text-truncate" data-i18n="inventory">Inventario</div>
                      </a>
                   </li>
@@ -298,123 +298,328 @@
       <div class="content-wrapper">
             <!-- Content -->
             <div class="container-xxl flex-grow-1 container-p-y">
-              <div class="row gy-6">
-                <!-- Articulos Scrollbar -->
-                <div class="col-md-12 col-sm-12">
-                  <div class="card overflow-hidden" style="height: 700px">
-                    <h5 class="card-header">Articulos</h5>
-                    <div class="card-body" id="articulosscroll">
-                        <div class="row mb-12 g-6">
-                           <div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/Gamatech.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Fresa</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">Gratis</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/20.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Sandia</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">15 peso</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Manzana</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">10 pesos</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Mango</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">80 pesos</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/platanito2.png" alt="platano.png" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Platano</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">25 pesos</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/7.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Limon</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">30 pesos</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Piña</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">120 pesos</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Naranja</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">40 pesos</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Guayaba</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">Go somewhere</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Nopal</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">Go somewhere</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">Zanaoria</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">Go somewhere</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100">
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">calabaza</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">Go somewhere</a>
-                                 </div>
-                              </div>
-                           </div><div class="col-md-3 col-lg-3">
-                              <div class="card h-100"> 
-                                 <img class="card-img-top" src="../assets/img/elements/2.png" alt="Card image cap" />
-                                 <div class="card-body">
-                                    <h5 class="card-title">papa</h5>
-                                    <a href="javascript:void(0)" class="btn btn-outline-primary">Go somewhere</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+              <!-- Basic Bootstrap Table -->
+              <div class="card">
+                <h5 class="card-header">Inventario</h5>
+                <div class="table-responsive text-nowrap">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>Articulo</th>
+                        <th>Cantidad (kg)</th>
+                        <th>Almacen</th>
+                        <th>Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-border-bottom-0">
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
+                        </td>
+                        <td>10.953</td>
+                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
+                        </td>
+                        <td>9486</td>
+                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
+                        </td>
+                        <td>10.953</td>
+                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
+                        </td>
+                        <td>9486</td>
+                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr><tr>
+                        <td>
+                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
+                        </td>
+                        <td>10.953</td>
+                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
+                        </td>
+                        <td>9486</td>
+                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr><tr>
+                        <td>
+                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
+                        </td>
+                        <td>10.953</td>
+                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
+                        </td>
+                        <td>9486</td>
+                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr><tr>
+                        <td>
+                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
+                        </td>
+                        <td>10.953</td>
+                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
+                        </td>
+                        <td>9486</td>
+                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr><tr>
+                        <td>
+                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
+                        </td>
+                        <td>10.953</td>
+                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
+                        </td>
+                        <td>9486</td>
+                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr><tr>
+                        <td>
+                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
+                        </td>
+                        <td>10.953</td>
+                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
+                        </td>
+                        <td>9486</td>
+                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
+                        <td>
+                          <div class="dropdown">
+                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
+                              >
+                              <a class="dropdown-item" href="javascript:void(0);"
+                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
+                              >
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
+              </div>
+              <!--/ Basic Bootstrap Table -->
                 <!--/ Articulos Scrollbar -->
               </div>
             </div>
