@@ -514,24 +514,32 @@
                   </div>
                   <!-- FOOTER FIJO -->
                   <div class="card-footer border-top">
-                     <div class="row gy-6">
-                        <div class="row align-items-center">
-                           <div class="col-2">
-                              <label class="fw-bold mb-0">TOTAL</label>
-                           </div>
-                           <div class="col-2"></div>
+                     <div class="row align-items-center gy-2">
+                        
+                        <!-- Label -->
+                        <div class="col-2 col-md-2">
+                           <label class="fw-bold mb-0">TOTAL</label>
+                        </div>
+
+                        <!-- Espacio opcional -->
+                        <div class="col-md-6 d-none d-md-block"></div>
+
+                        <!-- Input -->
+                        <div class="col-6 col-md-4">
                            <div class="input-group">
-                              <span class="input-group-text">$</span>
-                              <input
-                                 type="number"
-                                 class="form-control"
-                                 placeholder="Amount"
-                                 aria-label="Amount (to the nearest dollar)" />
-                              <span class="input-group-text">MNX</span> 
+                           <span class="input-group-text">$</span>
+                           <input
+                              type="number"
+                              class="form-control text-end"
+                              placeholder="0.00"
+                              aria-label="Total"
+                           />
+                           <span class="input-group-text">MXN</span>
                            </div>
                         </div>
+
                      </div>
-                  </div>
+                     </div>
                   <!--/ Lista Scrollbar -->
                </div>
             </div>
