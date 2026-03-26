@@ -39,589 +39,315 @@
       <!-- Layout wrapper -->
       <div class="layout-wrapper layout-content-navbar">
       <div class="layout-container">
-      <!-- Menu -->
-      <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
-         <div class="app-brand demo">
-            <a href="index.html" class="app-brand-link">
-            <span class="app-brand-logo demo">
-            <span class="text-primary">
-            <img src="../assets/img/favicon/favicon.ico" alt="Logo" width="50" />
-            </span>
-            </span>
-            <span class="app-brand-text demo menu-text fw-bold ms-2">Proyecto Jalisco</span>
-            </a>
-            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
-            <i class="bx bx-chevron-left d-block d-xl-none align-middle"></i>
-            </a>
-         </div>
-         <div class="menu-divider mt-0"></div>
-         <div class="menu-inner-shadow"></div>
-         <ul class="menu-inner py-1">
-            <!-- USUARIOS -->
-            <li class="menu-header small text-uppercase">
-               <span class="menu-header-text">USUARIOS</span>
-            </li>
-            <li class="menu-item active open">
-               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-grid-alt"></i>
-                  <div class="text-truncate" data-i18n="general">General</div>
-                  <span class="badge rounded-pill bg-danger ms-auto">5</span>
+         <!-- Menu -->
+         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+            <div class="app-brand demo">
+               <a href="index.html" class="app-brand-link">
+               <span class="app-brand-logo demo">
+               <span class="text-primary">
+               <img src="../assets/img/favicon/favicon.ico" alt="Logo" width="50" />
+               </span>
+               </span>
+               <span class="app-brand-text demo menu-text fw-bold ms-2">Proyecto Jalisco</span>
                </a>
-               <ul class="menu-sub">
-                  <li class="menu-item">
-                     <a href="index.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="home">Pagina de inicio</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pos.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="salesPos">Ventas (POS)</div>
-                     </a>
-                  </li>
-                  <li class="menu-item active">
-                     <a href="inventario.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="inventory">Inventario</div>
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <!-- SUPERVISORES -->
-            <li class="menu-header small text-uppercase">
-               <span class="menu-header-text">SUPERVISORES</span>
-            </li>
-            <li class="menu-item">
-               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-briefcase-alt"></i>
-                  <div class="text-truncate" data-i18n="management">Gestion</div>
+               <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
+               <i class="bx bx-chevron-left d-block d-xl-none align-middle"></i>
                </a>
-               <ul class="menu-sub">
-                  <li class="menu-item">
-                     <a href="pages-account-settings-account.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="roles">Roles</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-account.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="warehouseManagement">Gestion de almacenes</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="productCatalog">Catalogo de productos</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="salesHistory">Historial de ventas</div>
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <!-- ADMINISTRADORES -->
-            <li class="menu-header small text-uppercase">
-               <span class="menu-header-text">ADMINISTRADORES</span>
-            </li>
-            <li class="menu-item">
-               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-user"></i>
-                  <div class="text-truncate" data-i18n="users">Usuarios</div>
-               </a>
-               <ul class="menu-sub">
-                  <li class="menu-item">
-                     <a href="pages-account-settings-account.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="userList">Lista de usuarios</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-notifications.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="userRegister">Registro</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="changePassword">Cambiar contraseña</div>
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <li class="menu-item">
-               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-cog"></i>
-                  <div class="text-truncate" data-i18n="settings">Configuracion</div>
-               </a>
-               <ul class="menu-sub">
-                  <li class="menu-item">
-                     <a href="pages-account-settings-account.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="roleAssignment">Asigancion de rol</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-notifications.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="roleSelection">Seleccion de roles</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="supplierManagement">Gestion de provedores</div>
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <li class="menu-item">
-               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-file"></i>
-                  <div class="text-truncate" data-i18n="logs">Logs</div>
-               </a>
-               <ul class="menu-sub">
-                  <li class="menu-item">
-                     <a href="pages-account-settings-account.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="accessLogs">Accesos</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-notifications.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="priceChanges">Cambios de precio</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="managementAdjustments">Ajuste de gestion</div>
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <li class="menu-item">
-               <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-bar-chart-alt-2"></i>
-                  <div class="text-truncate" data-i18n="reports">Reportes</div>
-               </a>
-               <ul class="menu-sub">
-                  <li class="menu-item">
-                     <a href="pages-account-settings-account.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="salesReport">Reporte de ventas</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-notifications.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="purchaseReport">Reporte de compras</div>
-                     </a>
-                  </li>
-                  <li class="menu-item">
-                     <a href="pages-account-settings-connections.html" class="menu-link">
-                        <div class="text-truncate" data-i18n="customReports">Reportes personalizados</div>
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <!-- SOPORTE -->
-            <li class="menu-header small text-uppercase">
-               <span class="menu-header-text">SOPORTE</span>
-            </li>
-            <li class="menu-item">
-               <a href="https://www.gamatech.mx" target="_blank" class="menu-link">
-                  <i class="menu-icon tf-icons bx bx-help-circle"></i>
-                  <div class="text-truncate" data-i18n="support">Soporte</div>
-               </a>
-            </li>
-         </ul>
-      </aside>
-      <!-- / Menu -->
-      <!-- Layout container -->
-      <div class="layout-page">
-      <!-- Navbar -->
-      <nav
-         class="layout-navbar container-xxl navbar-detached navbar navbar-expand-xl align-items-center bg-navbar-theme"
-         id="layout-navbar">
-         <div class="layout-menu-toggle navbar-nav align-items-xl-center me-4 me-xl-0 d-xl-none">
-            <a class="nav-item nav-link px-0 me-xl-6" href="javascript:void(0)">
-            <i class="icon-base bx bx-menu icon-md"></i>
-            </a>
-         </div><div class="navbar-nav align-items-center me-auto">
-                <div class="nav-item d-flex align-items-center">
-                  <span class="w-px-22 h-px-22"><i class="icon-base bx bx-search icon-md"></i></span>
-                  <input
-                    type="text"
-                    class="form-control border-0 shadow-none ps-1 ps-sm-2 d-md-block d-none"
-                    placeholder="Buscar..."
-                    aria-label="Buscar" />
-                </div>
-              </div>
-         <div class="navbar-nav-right d-flex align-items-center justify-content-end" id="navbar-collapse">
-            <ul class="navbar-nav flex-row align-items-center ms-md-auto">
-               <!-- Place this tag where you want the button to render. -->
-               <li class="nav-item lh-1 me-4">
-                  <span class="badge bg-label-dark">Fecha y Hora Actual</span>
-                  <span class="badge bg-label-dark">nombre_usuario</span>
+            </div>
+            <div class="menu-divider mt-0"></div>
+            <div class="menu-inner-shadow"></div>
+            <ul class="menu-inner py-1">
+               <!-- USUARIOS -->
+               <li class="menu-header small text-uppercase">
+                  <span class="menu-header-text">USUARIOS</span>
                </li>
-               <!-- User -->
-               <li class="nav-item navbar-dropdown dropdown-user dropdown">
-                  <a
-                     class="nav-link dropdown-toggle hide-arrow p-0"
-                     href="javascript:void(0);"
-                     data-bs-toggle="dropdown">
-                     <div class="avatar avatar-online">
-                        <img src="../assets/img/favicon/favicon.ico" alt class="w-px-40 h-auto rounded-circle" />
-                     </div>
+               <li class="menu-item active open">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                     <i class="menu-icon tf-icons bx bx-grid-alt"></i>
+                     <div class="text-truncate" data-i18n="general">General</div>
+                     <span class="badge rounded-pill bg-danger ms-auto">5</span>
                   </a>
-                  <ul class="dropdown-menu dropdown-menu-end">
-                     <li>
-                        <a class="dropdown-item" href="#">
-                           <div class="d-flex">
-                              <div class="flex-shrink-0 me-3">
-                                 <div class="avatar avatar-online">
-                                    <img src="../assets/img/favicon/favicon.ico" alt class="w-px-40 h-auto rounded-circle" />
-                                 </div>
-                              </div>
-                              <div class="flex-grow-1">
-                                 <h6 class="mb-0">nombre_usuario</h6>
-                                 <small class="text-body-secondary">rol_usuario</small>
-                              </div>
-                           </div>
+                  <ul class="menu-sub">
+                     <li class="menu-item">
+                        <a href="index.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="home">Pagina de inicio</div>
                         </a>
                      </li>
-                     <li>
-                        <div class="dropdown-divider my-1"></div>
+                     <li class="menu-item">
+                        <a href="pos.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="salesPos">Ventas (POS)</div>
+                        </a>
                      </li>
-                     <li>
-                        <a class="dropdown-item" href="javascript:void(0);">
-                        <i class="icon-base bx bx-power-off icon-md me-3"></i><span>Cerrar sesión</span>
+                     <li class="menu-item">
+                        <a href="inventario.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="inventory">Inventario</div>
                         </a>
                      </li>
                   </ul>
                </li>
-               <!--/ User -->
+               <!-- SUPERVISORES -->
+               <li class="menu-header small text-uppercase">
+                  <span class="menu-header-text">SUPERVISORES</span>
+               </li>
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                     <i class="menu-icon tf-icons bx bx-briefcase-alt"></i>
+                     <div class="text-truncate" data-i18n="management">Gestion</div>
+                  </a>
+                  <ul class="menu-sub">
+                     <li class="menu-item">
+                        <a href="pages-account-settings-account.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="roles">Roles</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-account.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="warehouseManagement">Gestion de almacenes</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-connections.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="productCatalog">Catalogo de productos</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-connections.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="salesHistory">Historial de ventas</div>
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <!-- ADMINISTRADORES -->
+               <li class="menu-header small text-uppercase">
+                  <span class="menu-header-text">ADMINISTRADORES</span>
+               </li>
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                     <i class="menu-icon tf-icons bx bx-user"></i>
+                     <div class="text-truncate" data-i18n="users">Usuarios</div>
+                  </a>
+                  <ul class="menu-sub">
+                     <li class="menu-item active">
+                        <a href="pages-account-settings-account.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="userList">Lista de usuarios</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-notifications.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="userRegister">Registro</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-connections.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="changePassword">Cambiar contraseña</div>
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                     <i class="menu-icon tf-icons bx bx-cog"></i>
+                     <div class="text-truncate" data-i18n="settings">Configuracion</div>
+                  </a>
+                  <ul class="menu-sub">
+                     <li class="menu-item">
+                        <a href="pages-account-settings-account.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="roleAssignment">Asigancion de rol</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-notifications.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="roleSelection">Seleccion de roles</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-connections.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="supplierManagement">Gestion de provedores</div>
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                     <i class="menu-icon tf-icons bx bx-file"></i>
+                     <div class="text-truncate" data-i18n="logs">Logs</div>
+                  </a>
+                  <ul class="menu-sub">
+                     <li class="menu-item">
+                        <a href="pages-account-settings-account.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="accessLogs">Accesos</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-notifications.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="priceChanges">Cambios de precio</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-connections.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="managementAdjustments">Ajuste de gestion</div>
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="menu-item">
+                  <a href="javascript:void(0);" class="menu-link menu-toggle">
+                     <i class="menu-icon tf-icons bx bx-bar-chart-alt-2"></i>
+                     <div class="text-truncate" data-i18n="reports">Reportes</div>
+                  </a>
+                  <ul class="menu-sub">
+                     <li class="menu-item">
+                        <a href="pages-account-settings-account.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="salesReport">Reporte de ventas</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-notifications.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="purchaseReport">Reporte de compras</div>
+                        </a>
+                     </li>
+                     <li class="menu-item">
+                        <a href="pages-account-settings-connections.html" class="menu-link">
+                           <div class="text-truncate" data-i18n="customReports">Reportes personalizados</div>
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <!-- SOPORTE -->
+               <li class="menu-header small text-uppercase">
+                  <span class="menu-header-text">SOPORTE</span>
+               </li>
+               <li class="menu-item">
+                  <a href="https://www.gamatech.mx" target="_blank" class="menu-link">
+                     <i class="menu-icon tf-icons bx bx-help-circle"></i>
+                     <div class="text-truncate" data-i18n="support">Soporte</div>
+                  </a>
+               </li>
             </ul>
-         </div>
-      </nav> 
-      <!-- / Navbar -->
-      <!-- Content wrapper -->
-      <div class="content-wrapper">
-            <!-- Content -->
-            <div class="container-xxl flex-grow-1 container-p-y">
-              <!-- Basic Bootstrap Table -->
-              <div class="card">
-                <h5 class="card-header">Inventario</h5>
-                <div class="table-responsive text-nowrap">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th>Articulo</th>
-                        <th>Cantidad (kg)</th>
-                        <th>Almacen</th>
-                        <th>Acciones</th>
-                      </tr>
-                    </thead>
-                    <tbody class="table-border-bottom-0">
-                      <tr>
-                        <td>
-                           <img src="../assets/img/elements/sandia.png" width="35"  /> <span>Sandia</span> 
-                        </td>
-                        <td>10.953</td>
-                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
-                        </td>
-                        <td>9486</td>
-                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
-                        </td>
-                        <td>10.953</td>
-                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Manzana</span>
-                        </td>
-                        <td>9486</td>
-                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr><tr>
-                        <td>
-                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
-                        </td>
-                        <td>10.953</td>
-                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
-                        </td>
-                        <td>9486</td>
-                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr><tr>
-                        <td>
-                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
-                        </td>
-                        <td>10.953</td>
-                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
-                        </td>
-                        <td>9486</td>
-                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr><tr>
-                        <td>
-                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
-                        </td>
-                        <td>10.953</td>
-                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
-                        </td>
-                        <td>9486</td>
-                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr><tr>
-                        <td>
-                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
-                        </td>
-                        <td>10.953</td>
-                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
-                        </td>
-                        <td>9486</td>
-                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr><tr>
-                        <td>
-                          <i class="icon-base bx bxl-angular icon-md text-danger me-4"></i> <span>Limon</span>
-                        </td>
-                        <td>10.953</td>
-                        <td><span class="badge bg-dark me-1">Almacen Fulanito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <i class="icon-base bx bxl-react icon-md text-info me-4"></i> <span>Platano</span>
-                        </td>
-                        <td>9486</td>
-                        <td><span class="badge bg-dark me-1">Almacen Manganito</span></td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="icon-base bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-edit-alt me-2"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="icon-base bx bx-trash me-2"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              <!--/ Basic Bootstrap Table -->
-                <!--/ Articulos Scrollbar -->
-              </div>
+         </aside>
+         <!-- / Menu -->
+         <!-- Layout container -->
+         <div class="layout-page">
+            <!-- Navbar -->
+            <nav
+               class="layout-navbar container-xxl navbar-detached navbar navbar-expand-xl align-items-center bg-navbar-theme"
+               id="layout-navbar">
+               <div class="layout-menu-toggle navbar-nav align-items-xl-center me-4 me-xl-0 d-xl-none">
+                  <a class="nav-item nav-link px-0 me-xl-6" href="javascript:void(0)">
+                  <i class="icon-base bx bx-menu icon-md"></i>
+                  </a>
+               </div>
+               <div class="navbar-nav align-items-center me-auto">
+                  <div class="nav-item d-flex align-items-center">
+                     <span class="w-px-22 h-px-22"><i class="icon-base bx bx-search icon-md"></i></span>
+                     <input
+                        type="text"
+                        class="form-control border-0 shadow-none ps-1 ps-sm-2 d-md-block d-none"
+                        placeholder="Buscar..."
+                        aria-label="Buscar" />
+                  </div>
+               </div>
+               <div class="navbar-nav-right d-flex align-items-center justify-content-end" id="navbar-collapse">
+                  <ul class="navbar-nav flex-row align-items-center ms-md-auto">
+                     <!-- Place this tag where you want the button to render. -->
+                     <li class="nav-item lh-1 me-4">
+                        <span class="badge bg-label-dark">Fecha y Hora Actual</span>
+                        <span class="badge bg-label-dark">nombre_usuario</span>
+                     </li>
+                     <!-- User -->
+                     <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                        <a
+                           class="nav-link dropdown-toggle hide-arrow p-0"
+                           href="javascript:void(0);"
+                           data-bs-toggle="dropdown">
+                           <div class="avatar avatar-online">
+                              <img src="../assets/img/favicon/favicon.ico" alt class="w-px-40 h-auto rounded-circle" />
+                           </div>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                           <li>
+                              <a class="dropdown-item" href="#">
+                                 <div class="d-flex">
+                                    <div class="flex-shrink-0 me-3">
+                                       <div class="avatar avatar-online">
+                                          <img src="../assets/img/favicon/favicon.ico" alt class="w-px-40 h-auto rounded-circle" />
+                                       </div>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                       <h6 class="mb-0">nombre_usuario</h6>
+                                       <small class="text-body-secondary">rol_usuario</small>
+                                    </div>
+                                 </div>
+                              </a>
+                           </li>
+                           <li>
+                              <div class="dropdown-divider my-1"></div>
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="javascript:void(0);">
+                              <i class="icon-base bx bx-power-off icon-md me-3"></i><span>Cerrar sesión</span>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <!--/ User -->
+                  </ul>
+               </div>
+            </nav>
+            <!-- / Navbar -->
+            <!-- Content wrapper -->
+            <div class="content-wrapper">
+               <!-- Content -->
+               <div class="container-xxl flex-grow-1 container-p-y">
+                  <!-- Basic Bootstrap Table -->
+                  <div class="card">
+                     <h5 class="card-header">Lista de usuarios</h5>
+                     <div class="table-responsive text-nowrap">
+                        <table class="table">
+                           <thead>
+                              <tr>
+                                 <th>ID</th>
+                                 <th>USUARIO</th>
+                                 <th>STATUS</th>
+                                 <th>ROL</th>
+                                 <th>SUCURSAL</th>
+                                 <th>ACCIONES</th>
+                              </tr>
+                           </thead>
+                           <tbody class="table-border-bottom-0">
+                              <tr>
+                                 <td>
+                                    <span>1</span> 
+                                 </td>
+                                 <td>
+                                    gambalex
+                                 </td>
+                                 <td><span class="badge bg-label-success me-1">Activo</span></td>
+                                 <td><span class="badge bg-label-info me-1">Cajero</span></td>
+                                 <td><span class="badge bg-dark me-1">Sucursal Yarda</span></td>
+                                 <td>
+                                    <div class="dropdown">
+                                       <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                       <i class="icon-base bx bx-dots-vertical-rounded"></i>
+                                       </button>
+                                       <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="javascript:void(0);"
+                                             ><i class="icon-base bx bx-edit-alt me-1"></i> Editar</a
+                                             >
+                                          <a class="dropdown-item" href="javascript:void(0);"
+                                             ><i class="icon-base bx bx-trash me-1"></i> Eliminar</a
+                                             >
+                                       </div>
+                                    </div>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <!--/ Basic Bootstrap Table -->
+                  <!--/ Articulos Scrollbar -->
+               </div>
             </div>
             <!-- / Layout page -->
          </div>
@@ -637,7 +363,7 @@
       <script src="../assets/vendor/js/menu.js"></script>
       <!-- endbuild --> 
       <!-- Vendors JS -->
-       <script src="../assets/js/extended-ui-perfect-scrollbar.js"></script>
+      <script src="../assets/js/extended-ui-perfect-scrollbar.js"></script>
       <!-- Main JS -->
       <script src="../assets/js/main.js"></script>
       <!-- Page JS -->
